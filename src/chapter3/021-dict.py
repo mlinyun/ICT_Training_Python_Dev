@@ -7,10 +7,10 @@
 # 我们可以把字典理解为 键值对 的集合，字典的键必须是唯一的
 # 字典是可变数据类型
 
-age = {'James': 23, 'Leonard': 25, 'Antetokounmpo': 32, 'Durant': 24}  # 这是一个字典
+age = {"James": 23, "Leonard": 25, "Antetokounmpo": 32, "Durant": 24}  # 这是一个字典
 print(age)
 print(type(age), id(age))
-age['Harden'] = 19  # 字典增加元素
+age["Harden"] = 19  # 字典增加元素
 print(age)
 print(type(age), id(age))
 
